@@ -1,4 +1,8 @@
 .navbar-custom{
-    background-color: rgb(250, 255, 175) !important;
-    box-shadow: 2px 2px 5px rgb(145, 145, 145);
+    background-image: linear-gradient(145deg, rgb(0, 236, 236),rgb(0, 98, 0))!important;
+    box-shadow: 4px 2px 8px rgb(145, 145, 145);
+}
+
+.navbar-custom .nav-link{
+    color: white!important;
 }

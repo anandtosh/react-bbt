@@ -1,6 +1,6 @@
-import { Button } from 'react-bootstrap';
 import React, { Component } from 'react';
 import './Sidenav.css';
+import { CgMenuRound } from 'react-icons/cg';
 
 export default class SidenavSplit extends Component {
     render() {
@@ -10,7 +10,9 @@ export default class SidenavSplit extends Component {
 
                 </div>
                 <div className="home-button">
-                    
+                    <a className="home-button-link">
+                        <CgMenuRound/>
+                    </a>
                 </div>
             </div>
         )

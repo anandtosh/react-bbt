@@ -2,7 +2,7 @@
 .left-sidebar{
   width: 100px;
   height: 100%;
-  background-color: rgb(235, 235, 235);
+  background-image: linear-gradient(45deg, rgb(255, 211, 211),rgb(210, 255, 210));
   box-shadow: 2px 0px 5px rgb(136, 136, 136);
 }
 
@@ -10,8 +10,25 @@
   height: calc(100% - 80px);
 }
 
+.home-button-link{
+  font-size: 60px;
+  color: rgb(255, 202, 202);
+  margin: auto;
+  padding: auto;
+  display: flex;
+ 
+}
+
+.home-button-link:hover{
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(233, 233, 233, 0.3);
+  border: 1px solid rgba(233, 233, 233, 0.1);
+}
+
 .home-button{
+  display: flex;
   width: 100%;
   height: 80px;
-  background-color: coral;
+  background-color: rgb(136, 20, 78);
 }
