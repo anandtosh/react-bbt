@@ -1,0 +1,9 @@
+/* make the customizations */
+$theme-colors: (
+    "info": teal,
+    "danger": tomato,
+    "primary" : rgb(105, 105, 224),
+);
+
+
+@import "~bootstrap/scss/bootstrap";
